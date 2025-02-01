@@ -1,9 +1,9 @@
 import React from 'react';
+import { Container, Typography, Box } from '@mui/material';
 import Balance from './Components/Balance';
 import ExpenseForm from './Components/ExpenseForm';
 import ExpenseList from './Components/ExpenseList';
 import { ExpenseProvider } from './Context/Global';
-import { Container, Typography } from '@mui/material';
 
 const App = () => {
   return (
